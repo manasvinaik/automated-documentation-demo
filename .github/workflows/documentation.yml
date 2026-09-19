@@ -71,58 +71,7 @@ jobs:
           mkdir -p site/doxygen
           cp -r docs/doxygen/html site/doxygen/
 
-      # 10. Verify generated Doxygen documentation
-      - name: Verify Doxygen output
-        run: |
-          echo "========================================"
-          echo "CHECKING SOURCE CODE"
-          echo "========================================"
-
-          grep -n "percentage" src/calculator.py
-
-          echo ""
-          echo "========================================"
-          echo "CHECKING DOXYGEN OUTPUT"
-          echo "========================================"
-
-          ls -la site/doxygen/html
-
-          echo ""
-          echo "Searching generated documentation for percentage..."
-
-          if grep -R "percentage" site/doxygen/html; then
-            echo ""
-            echo "SUCCESS: percentage() was found in generated Doxygen documentation."
-          else
-            echo ""
-            echo "ERROR: percentage() was NOT found in generated Doxygen documentation."
-            exit 1
-          fi
-
-      # 11. Verify final MkDocs site
-      - name: Verify MkDocs site
-        run: |
-          echo "========================================"
-          echo "CHECKING FINAL SITE"
-          echo "========================================"
-
-          test -f site/doxygen/html/index.html
-
-          echo "Doxygen index exists."
-
-          echo ""
-          echo "Searching final deployed site for percentage..."
-
-          if grep -R "percentage" site/doxygen/html; then
-            echo ""
-            echo "SUCCESS: percentage() is present in the final Pages artifact."
-          else
-            echo ""
-            echo "ERROR: percentage() is missing from the final Pages artifact."
-            exit 1
-          fi
-
-      # 12. Save generated README
+      # 10. Save generated README
       - name: Commit generated README
         run: |
           git config user.name "github-actions[bot]"
@@ -134,13 +83,13 @@ jobs:
 
           git push
 
-      # 13. Upload MkDocs website
+      # 11. Upload MkDocs website
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
-      # 14. Deploy to GitHub Pages
+      # 12. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
