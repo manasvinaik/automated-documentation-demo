@@ -136,7 +136,6 @@ jobs:
 
       # 13. Upload MkDocs website
       - name: Upload Pages artifact
-      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: site
