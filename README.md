@@ -1,10 +1,13 @@
-# Automated Documentation Demo
+# Auto Documentation Demo
 
 ## Overview
 
 **src/calculator.py** — Calculator module.
 
 Provides basic arithmetic operations.
+**src/converter.py** — Unit conversion utilities.
+
+Provides functions for converting common measurements.
 
 ## Source Files
 
@@ -17,18 +20,27 @@ Provides basic arithmetic operations.
 - `multiply()`
 - `divide()`
 
+### `src/converter.py`
+
+**Functions / Methods:**
+
+- `kilometers_to_miles()`
+- `miles_to_kilometers()`
+- `kilograms_to_pounds()`
+
 ## Project Structure
 
 ```text
-Doxyfile
-README.md
 docs/index.md
 docs/installation.md
 docs/usage.md
+Doxyfile
 mkdocs.yml
+README.md
 scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py
+src/converter.py
 ```
 
 ## Dependencies
