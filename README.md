@@ -5,9 +5,6 @@
 **src/calculator.py** — Calculator module.
 
 Provides basic arithmetic operations.
-**src/converter.py** — Unit conversion utilities.
-
-Provides functions for converting common measurements.
 
 ## Source Files
 
@@ -19,14 +16,6 @@ Provides functions for converting common measurements.
 - `subtract()`
 - `multiply()`
 - `divide()`
-
-### `src/converter.py`
-
-**Functions / Methods:**
-
-- `kilometers_to_miles()`
-- `miles_to_kilometers()`
-- `kilograms_to_pounds()`
 
 ## Project Structure
 
@@ -40,7 +29,6 @@ mkdocs.yml
 scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py
-src/converter.py
 ```
 
 ## Dependencies
