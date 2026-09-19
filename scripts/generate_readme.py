@@ -5,7 +5,7 @@ PROJECT_NAME = "Automated Documentation Demo"
 
 DESCRIPTION = """
 A simple Python calculator project demonstrating automated
-documentation generation using GitHub Actions, Doxygen and MkDocs.
+documentation generation using GitHub Actions, Doxygen, and MkDocs.
 """
 
 
@@ -38,4 +38,13 @@ Clone the repository:
 
 ```bash
 git clone <repository-url>
-cd auto-documentation-demo """
+cd auto-documentation-demo
+```
+"""
+
+    return readme
+
+
+if __name__ == "__main__":
+    output_path = Path(__file__).resolve().parent.parent / "README.md"
+    output_path.write_text(generate_readme(), encoding="utf-8")
