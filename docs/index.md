@@ -8,14 +8,9 @@ This documentation is automatically generated from the project's source code.
 
 Calculator module. Provides basic arithmetic operations.
 
-### `src/temperature.py`
-
-Temperature conversion utilities. Provides functions for converting temperatures between units.
-
 ## Source Files
 
 - `src/calculator.py`
-- `src/temperature.py`
 
 ## Available Functions
 
@@ -25,11 +20,6 @@ Temperature conversion utilities. Provides functions for converting temperatures
 - **`subtract()`** — Subtract the second number from the first. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Difference between the two numbers.
 - **`multiply()`** — Multiply two numbers. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Product of the two numbers.
 - **`divide()`** — Divide the first number by the second. Parameters: a (int | float): Numerator. b (int | float): Denominator. Returns: float: Result of the division. Raises: ValueError: If the denominator is zero.
-
-### `src/temperature.py`
-
-- **`celsius_to_fahrenheit()`** — Convert Celsius to Fahrenheit. Parameters: celsius (float): Temperature in Celsius. Returns: float: Temperature in Fahrenheit.
-- **`fahrenheit_to_celsius()`** — Convert Fahrenheit to Celsius. Parameters: fahrenheit (float): Temperature in Fahrenheit. Returns: float: Temperature in Celsius.
 
 ## Classes
 

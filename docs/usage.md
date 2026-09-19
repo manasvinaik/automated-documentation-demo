@@ -66,38 +66,6 @@ Divide the first number by the second. Parameters: a (int | float): Numerator. b
 divide(value, value)
 ```
 
-## `src/temperature.py`
-
-Temperature conversion utilities. Provides functions for converting temperatures between units.
-
-### `celsius_to_fahrenheit()`
-
-Convert Celsius to Fahrenheit. Parameters: celsius (float): Temperature in Celsius. Returns: float: Temperature in Fahrenheit.
-
-**Parameters:**
-
-- `celsius`
-
-**Example:**
-
-```python
-celsius_to_fahrenheit(value)
-```
-
-### `fahrenheit_to_celsius()`
-
-Convert Fahrenheit to Celsius. Parameters: fahrenheit (float): Temperature in Fahrenheit. Returns: float: Temperature in Celsius.
-
-**Parameters:**
-
-- `fahrenheit`
-
-**Example:**
-
-```python
-fahrenheit_to_celsius(value)
-```
-
 ---
 
 For detailed API information, see the automatically generated Doxygen documentation.

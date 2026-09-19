@@ -1,13 +1,10 @@
-# Automated Documentation Demo
+# Auto Documentation Demo
 
 ## Overview
 
 **src/calculator.py** — Calculator module.
 
 Provides basic arithmetic operations.
-**src/temperature.py** — Temperature conversion utilities.
-
-Provides functions for converting temperatures between units.
 
 ## Source Files
 
@@ -20,27 +17,19 @@ Provides functions for converting temperatures between units.
 - `multiply()`
 - `divide()`
 
-### `src/temperature.py`
-
-**Functions / Methods:**
-
-- `celsius_to_fahrenheit()`
-- `fahrenheit_to_celsius()`
-
 ## Project Structure
 
 ```text
-Doxyfile
-README.md
 docs/index.md
 docs/installation.md
 docs/javascripts/auto-reload.js
 docs/usage.md
+Doxyfile
 mkdocs.yml
+README.md
 scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py
-src/temperature.py
 ```
 
 ## Dependencies
