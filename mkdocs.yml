@@ -3,9 +3,6 @@ site_name: Automated Documentation Demo
 theme:
   name: material
 
-extra_javascript:
-  - javascripts/auto-reload.js
-
 nav:
   - Home: index.md
   - Installation: installation.md

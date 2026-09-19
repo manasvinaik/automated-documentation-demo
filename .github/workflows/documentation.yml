@@ -63,7 +63,7 @@ jobs:
       # 8. Build MkDocs website
       - name: Build MkDocs
         run: |
-          echo "${{ github.sha }}" > site/version.txt
+          mkdocs build
 
       # 9. Copy Doxygen documentation into the MkDocs site
       - name: Copy Doxygen documentation
