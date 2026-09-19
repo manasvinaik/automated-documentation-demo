@@ -1,4 +1,4 @@
-# Auto Documentation Demo
+# Automated Documentation Demo
 
 ## Overview
 
@@ -31,12 +31,12 @@ Provides functions for converting common measurements.
 ## Project Structure
 
 ```text
+Doxyfile
+README.md
 docs/index.md
 docs/installation.md
 docs/usage.md
-Doxyfile
 mkdocs.yml
-README.md
 scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py
