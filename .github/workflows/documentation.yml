@@ -15,7 +15,6 @@ permissions:
 
 jobs:
   documentation:
-
     runs-on: ubuntu-latest
 
     environment:
@@ -66,7 +65,22 @@ jobs:
         run: |
           mkdocs build
 
-      # 9. Save generated README
+      # 9. Copy Doxygen documentation into the MkDocs site
+      - name: Copy Doxygen documentation
+        run: |
+          mkdir -p site/doxygen
+          cp -r docs/doxygen/html site/doxygen/
+
+      # 10. Verify generated Doxygen documentation
+      - name: Verify Doxygen output
+        run: |
+          echo "Checking Doxygen output..."
+          ls -la site/doxygen/html
+
+          echo "Checking for percentage function..."
+          grep -R "percentage" site/doxygen/html || true
+
+      # 11. Save generated README
       - name: Commit generated README
         run: |
           git config user.name "github-actions[bot]"
@@ -78,13 +92,13 @@ jobs:
 
           git push
 
-      # 10. Upload MkDocs website
+      # 12. Upload MkDocs website
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: site
 
-      # 11. Deploy to GitHub Pages
+      # 13. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
