@@ -5,6 +5,9 @@
 **src/calculator.py** — Calculator module.
 
 Provides basic arithmetic operations.
+**src/temperature.py** — Temperature conversion utilities.
+
+Provides functions for converting temperatures between units.
 
 ## Source Files
 
@@ -16,6 +19,13 @@ Provides basic arithmetic operations.
 - `subtract()`
 - `multiply()`
 - `divide()`
+
+### `src/temperature.py`
+
+**Functions / Methods:**
+
+- `celsius_to_fahrenheit()`
+- `fahrenheit_to_celsius()`
 
 ## Project Structure
 
@@ -29,6 +39,7 @@ docs/usage.md
 mkdocs.yml
 scripts/generate_readme.py
 src/calculator.py
+src/temperature.py
 ```
 
 ## Dependencies
