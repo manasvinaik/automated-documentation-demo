@@ -34,9 +34,9 @@ Doxyfile
 README.md
 docs/index.md
 docs/installation.md
-docs/technical-documentation.md
 docs/usage.md
 mkdocs.yml
+scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py
 src/temperature.py
