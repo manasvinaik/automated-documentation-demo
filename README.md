@@ -1,22 +1,45 @@
-# Automated Documentation Demo
+# Auto Documentation Demo
 
-A simple Python calculator project demonstrating automated
-documentation generation using GitHub Actions, Doxygen, and MkDocs.
+## Overview
 
-## Features
+**src/calculator.py** — Calculator module.
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+Provides basic arithmetic operations.
 
-## Installation
+## Source Files
 
-Make sure Python is installed on your system.
+### `src/calculator.py`
 
-Clone the repository:
+**Functions / Methods:**
 
-```bash
-git clone <repository-url>
-cd auto-documentation-demo
+- `add()`
+- `subtract()`
+- `multiply()`
+- `divide()`
+
+## Project Structure
+
+```text
+docs/index.md
+docs/installation.md
+docs/technical-documentation.md
+docs/usage.md
+Doxyfile
+mkdocs.yml
+README.md
+scripts/generate_readme.py
+src/calculator.py
 ```
+
+## Dependencies
+
+No dependency configuration files were detected.
+
+## Documentation
+
+This project uses automated documentation generation.
+
+- **Doxygen** generates technical documentation from source-code documentation.
+- **MkDocs** builds the documentation website.
+- **GitHub Actions** automatically regenerates the documentation when changes are pushed.
+- **GitHub Pages** publishes the generated documentation.
