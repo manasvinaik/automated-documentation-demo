@@ -65,28 +65,3 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero.")
 
     return a / b
-
-def percentage(value, percent):
-    """
-    Calculate a percentage of a value.
-
-    Parameters:
-        value (int | float): The original value.
-        percent (int | float): The percentage to calculate.
-
-    Returns:
-        float: The calculated percentage.
-    """
-    return value * (percent / 100)
-
-def square(number):
-    """
-    Calculate the square of a number.
-
-    Parameters:
-        number (int | float): Number to square.
-
-    Returns:
-        int | float: The squared value.
-    """
-    return number * number
