@@ -34,6 +34,7 @@ Doxyfile
 README.md
 docs/index.md
 docs/installation.md
+docs/javascripts/auto-reload.js
 docs/usage.md
 mkdocs.yml
 scripts/generate_docs.py
