@@ -1,164 +1,103 @@
 # Usage
 
-The Automated Documentation Demo contains a simple Python calculator with four basic arithmetic operations.
+This page describes the available functions and classes in **Auto Documentation Demo**.
 
-## Importing the Calculator
+## `src/calculator.py`
 
-The functions can be imported from the `calculator` module:
+Calculator module. Provides basic arithmetic operations.
 
-```python
-from src.calculator import add, subtract, multiply, divide
-```
+### `add()`
 
-## Addition
+Add two numbers. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Sum of the two numbers.
 
-The `add()` function adds two numbers.
+**Parameters:**
 
-```python
-result = add(10, 5)
-print(result)
-```
+- `a`
+- `b`
 
-Output:
-
-```text
-15
-```
-
-### Syntax
+**Example:**
 
 ```python
-add(a, b)
+add(value, value)
 ```
 
-* `a` — First number
-* `b` — Second number
-* Returns the sum of the two numbers
+### `subtract()`
 
----
+Subtract the second number from the first. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Difference between the two numbers.
 
-## Subtraction
+**Parameters:**
 
-The `subtract()` function subtracts the second number from the first.
+- `a`
+- `b`
+
+**Example:**
 
 ```python
-result = subtract(10, 5)
-print(result)
+subtract(value, value)
 ```
 
-Output:
+### `multiply()`
 
-```text
-5
-```
+Multiply two numbers. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Product of the two numbers.
 
-### Syntax
+**Parameters:**
+
+- `a`
+- `b`
+
+**Example:**
 
 ```python
-subtract(a, b)
+multiply(value, value)
 ```
 
-* `a` — First number
-* `b` — Second number
-* Returns the difference between the two numbers
+### `divide()`
 
----
+Divide the first number by the second. Parameters: a (int | float): Numerator. b (int | float): Denominator. Returns: float: Result of the division. Raises: ValueError: If the denominator is zero.
 
-## Multiplication
+**Parameters:**
 
-The `multiply()` function multiplies two numbers.
+- `a`
+- `b`
+
+**Example:**
 
 ```python
-result = multiply(10, 5)
-print(result)
+divide(value, value)
 ```
 
-Output:
+## `src/temperature.py`
 
-```text
-50
-```
+Temperature conversion utilities. Provides functions for converting temperatures between units.
 
-### Syntax
+### `celsius_to_fahrenheit()`
+
+Convert Celsius to Fahrenheit. Parameters: celsius (float): Temperature in Celsius. Returns: float: Temperature in Fahrenheit.
+
+**Parameters:**
+
+- `celsius`
+
+**Example:**
 
 ```python
-multiply(a, b)
+celsius_to_fahrenheit(value)
 ```
 
-* `a` — First number
-* `b` — Second number
-* Returns the product of the two numbers
+### `fahrenheit_to_celsius()`
 
----
+Convert Fahrenheit to Celsius. Parameters: fahrenheit (float): Temperature in Fahrenheit. Returns: float: Temperature in Celsius.
 
-## Division
+**Parameters:**
 
-The `divide()` function divides the first number by the second.
+- `fahrenheit`
+
+**Example:**
 
 ```python
-result = divide(10, 5)
-print(result)
-```
-
-Output:
-
-```text
-2.0
-```
-
-### Syntax
-
-```python
-divide(a, b)
-```
-
-* `a` — Numerator
-* `b` — Denominator
-* Returns the division result as a float
-
-### Division by Zero
-
-The function prevents division by zero.
-
-```python
-result = divide(10, 0)
-```
-
-This raises:
-
-```text
-ValueError: Cannot divide by zero.
+fahrenheit_to_celsius(value)
 ```
 
 ---
 
-## Example Program
-
-The following example uses all four operations:
-
-```python
-from src.calculator import add, subtract, multiply, divide
-
-a = 20
-b = 5
-
-print("Addition:", add(a, b))
-print("Subtraction:", subtract(a, b))
-print("Multiplication:", multiply(a, b))
-print("Division:", divide(a, b))
-```
-
-Output:
-
-```text
-Addition: 25
-Subtraction: 15
-Multiplication: 100
-Division: 4.0
-```
-
-## Technical Documentation
-
-Detailed documentation for the calculator's functions, parameters, return values, and exceptions is generated automatically using **Doxygen**.
-
-[View Technical Documentation](doxygen/html/index.html)
+For detailed API information, see the automatically generated Doxygen documentation.

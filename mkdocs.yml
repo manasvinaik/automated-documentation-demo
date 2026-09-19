@@ -7,4 +7,4 @@ nav:
   - Home: index.md
   - Installation: installation.md
   - Usage: usage.md
-  - Technical Documentation: technical-documentation.md
+  - Technical Documentation: doxygen/html/index.html

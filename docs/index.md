@@ -1,29 +1,38 @@
-# Automated Documentation Demo
+# Auto Documentation Demo
 
-Welcome to the Automated Documentation Demo.
-
-This project demonstrates how documentation can be automatically generated and published using:
-
-- GitHub Actions
-- Doxygen
-- MkDocs
-- GitHub Pages
+This documentation is automatically generated from the project's source code.
 
 ## Project Overview
 
-This project contains a simple Python calculator with documented functions for:
+### `src/calculator.py`
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
+Calculator module. Provides basic arithmetic operations.
 
-The source code contains documentation comments that are processed by Doxygen to generate technical documentation.
+### `src/temperature.py`
 
-MkDocs is used to create a user-friendly documentation website.
+Temperature conversion utilities. Provides functions for converting temperatures between units.
 
-## Documentation
+## Source Files
 
-- [Installation](installation.md)
-- [Usage](usage.md)
-- [Technical Documentation](doxygen/html/index.html)
+- `src/calculator.py`
+- `src/temperature.py`
+
+## Available Functions
+
+### `src/calculator.py`
+
+- **`add()`** — Add two numbers. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Sum of the two numbers.
+- **`subtract()`** — Subtract the second number from the first. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Difference between the two numbers.
+- **`multiply()`** — Multiply two numbers. Parameters: a (int | float): First number. b (int | float): Second number. Returns: int | float: Product of the two numbers.
+- **`divide()`** — Divide the first number by the second. Parameters: a (int | float): Numerator. b (int | float): Denominator. Returns: float: Result of the division. Raises: ValueError: If the denominator is zero.
+
+### `src/temperature.py`
+
+- **`celsius_to_fahrenheit()`** — Convert Celsius to Fahrenheit. Parameters: celsius (float): Temperature in Celsius. Returns: float: Temperature in Fahrenheit.
+- **`fahrenheit_to_celsius()`** — Convert Fahrenheit to Celsius. Parameters: fahrenheit (float): Temperature in Fahrenheit. Returns: float: Temperature in Celsius.
+
+## Classes
+
+No classes were found.
+
+Technical API documentation is available through the Doxygen documentation.
