@@ -1,4 +1,4 @@
-# Auto Documentation Demo
+# Automated Documentation Demo
 
 ## Overview
 
@@ -20,13 +20,13 @@ Provides basic arithmetic operations.
 ## Project Structure
 
 ```text
+Doxyfile
+README.md
 docs/index.md
 docs/installation.md
 docs/javascripts/auto-reload.js
 docs/usage.md
-Doxyfile
 mkdocs.yml
-README.md
 scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py
