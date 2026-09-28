@@ -66,6 +66,22 @@ Divide the first number by the second. Parameters: a (int | float): Numerator. b
 divide(value, value)
 ```
 
+## `src/temperature.py`
+
+### `kelvin_to_celsius()`
+
+Convert Kelvin to Celsius. Parameters: kelvin: Temperature in Kelvin. Returns: Temperature in Celsius.
+
+**Parameters:**
+
+- `kelvin`
+
+**Example:**
+
+```python
+kelvin_to_celsius(value)
+```
+
 ---
 
 For detailed API information, see the automatically generated Doxygen documentation.

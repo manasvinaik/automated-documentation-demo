@@ -17,6 +17,12 @@ Provides basic arithmetic operations.
 - `multiply()`
 - `divide()`
 
+### `src/temperature.py`
+
+**Functions / Methods:**
+
+- `kelvin_to_celsius()`
+
 ## Project Structure
 
 ```text
@@ -29,6 +35,7 @@ mkdocs.yml
 scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py
+src/temperature.py
 ```
 
 ## Dependencies
