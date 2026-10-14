@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['multiply_0',['multiply',['../namespacecalculator.html#a3743b412389552ac8c270541ef8e3496',1,'calculator']]]
+  ['divide_0',['divide',['../namespacecalculator.html#ae59c7f6d49cce5d37369e84fbf9069e2',1,'calculator']]]
 ];

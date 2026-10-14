@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['divide_0',['divide',['../namespacecalculator.html#ae59c7f6d49cce5d37369e84fbf9069e2',1,'calculator']]]
+  ['celsius_5fto_5ffahrenheit_0',['celsius_to_fahrenheit',['../namespacetemperature.html#a62e1a155d5d5e70ce4dfefb60b7389b5',1,'temperature']]]
 ];

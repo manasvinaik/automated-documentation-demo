@@ -1,4 +1,4 @@
-# Automated Documentation Demo
+# Auto Documentation Demo
 
 ## Overview
 
@@ -22,16 +22,17 @@ Provides basic arithmetic operations.
 **Functions / Methods:**
 
 - `kelvin_to_celsius()`
+- `celsius_to_fahrenheit()`
 
 ## Project Structure
 
 ```text
-Doxyfile
-README.md
 docs/index.md
 docs/installation.md
 docs/usage.md
+Doxyfile
 mkdocs.yml
+README.md
 scripts/generate_docs.py
 scripts/generate_readme.py
 src/calculator.py

@@ -82,6 +82,20 @@ Convert Kelvin to Celsius. Parameters: kelvin: Temperature in Kelvin. Returns: T
 kelvin_to_celsius(value)
 ```
 
+### `celsius_to_fahrenheit()`
+
+Convert a temperature from Celsius to Fahrenheit. Args: celsius: Temperature in degrees Celsius. Returns: The equivalent temperature in degrees Fahrenheit. Examples: >>> celsius_to_fahrenheit(0) 32.0 >>> celsius_to_fahrenheit(100) 212.0
+
+**Parameters:**
+
+- `celsius`
+
+**Example:**
+
+```python
+celsius_to_fahrenheit(value)
+```
+
 ---
 
 For detailed API information, see the automatically generated Doxygen documentation.

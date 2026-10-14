@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['subtract_0',['subtract',['../namespacecalculator.html#acf4fe99c4ddf67aa51c02ba11ab8a3be',1,'calculator']]]
+  ['kelvin_5fto_5fcelsius_0',['kelvin_to_celsius',['../namespacetemperature.html#af92b5e26f2bbfe2b4617ad79e6b1aba9',1,'temperature']]]
 ];

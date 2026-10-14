@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['percentage_0',['percentage',['../namespacecalculator.html#adcbb631f9625a6c8945b54ea07ede449',1,'calculator']]]
+  ['multiply_0',['multiply',['../namespacecalculator.html#a3743b412389552ac8c270541ef8e3496',1,'calculator']]]
 ];
